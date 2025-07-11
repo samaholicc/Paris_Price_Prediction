@@ -3,8 +3,7 @@ import plotly.express as px
 import pandas as pd
 
 # Load dataset
-dvf_agg = pd.read_csv('cleaned_paris_dvf_2024.csv')
-
+dvf_agg = pd.read_csv('https://raw.githubusercontent.com/samaholicc/Paris_Price_Prediction/master/cleaned_paris_dvf_2024.csv')
 # Figures
 fig_hist = px.histogram(dvf_agg, x='valeur_fonciere', nbins=50,
                         title='Distribution des prix immobiliers à Paris (2024)',
@@ -37,4 +36,4 @@ app.layout = html.Div([
 ])
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0', port=8080)
