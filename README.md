@@ -13,3 +13,5 @@ Python, Pandas, Scikit-learn, LightGBM, SHAP, Plotly, Dash, Tailwind CSS.
 - Visualisations : [Tableau de bord animé](dashboard.py), [Carte clusters](map_clusters.html), [Prix au m²](boxplot_price_per_m2.png).
 - Notebook : [Paris_Price_Prediction.ipynb](Paris_Price_Prediction.ipynb).
 
+## Live Demo
+Access the interactive dashboard online: [https://paris-price-prediction.onrender.com/](https://paris-price-prediction.onrender.com/)

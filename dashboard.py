@@ -70,7 +70,6 @@ app = Dash(__name__, external_stylesheets=['https://cdn.jsdelivr.net/npm/tailwin
 app.index_string = animated_background + app.index_string
 app.layout = html.Div(className='animated-bg text-white min-h-screen p-8', children=[
     html.H1("Prédiction des Prix Immobiliers à Paris", className='text-5xl font-bold text-center mb-8 text-yellow-400'),
-    html.H3("Un projet Big Data & IA pour mon alternance 2025", className='text-2xl text-center mb-10 text-cream-100'),
     html.Div(className='bg-white bg-opacity-90 text-black p-6 rounded-lg shadow-2xl mb-8 max-w-3xl mx-auto', children=[
         html.Label("Filtrer par arrondissement", className='text-lg font-semibold text-blue-900 mb-2 block'),
         dcc.Dropdown(
