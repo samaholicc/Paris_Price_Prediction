@@ -14,4 +14,4 @@ Python, Pandas, Scikit-learn, LightGBM, SHAP, Plotly, Dash, Tailwind CSS.
 - Notebook : [Paris_Price_Prediction.ipynb](Paris_Price_Prediction.ipynb).
 
 ## Live Demo
-Access the interactive dashboard online: [https://paris-price-prediction.onrender.com/](https://paris-price-prediction.onrender.com/)
+[https://paris-price-prediction.onrender.com/](https://paris-price-prediction.onrender.com/)
